@@ -21,9 +21,9 @@
 # #   st = ‘as 23 fdfdg544 34’ #введена строка
 # #
 # #   23, 544, 34              #вивело в консолі
-# str = 'as 23 fdfdg544 34'
+str = 'as 23 fd22fd2g544 34'
 #
-# print(', '.join(''.join(ch if ch.isdigit() else ' ' for ch in str).strip()))
+print(', '.join(''.join(ch if ch.isdigit() else ' ' for ch in str).split()))
 #
 # # ##################################################################################
 # # list
